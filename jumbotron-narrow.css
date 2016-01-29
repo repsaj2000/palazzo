@@ -49,6 +49,7 @@ body {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   background-color:#6497b1;
+  
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -96,3 +97,11 @@ body {
 .row {
 	width: 100%;
 }
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(https://github.com/jonbrennecke/connect/blob/master/css/fonts/Hallo%20Sans/Hallo%20sans.otf?raw=true) format("truetype");
+}
+.customfont { 
+    font-family: "My Custom Font", "Lucida Sans Unicode", sans-serif
+    ;}
