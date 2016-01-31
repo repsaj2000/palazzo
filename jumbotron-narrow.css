@@ -97,6 +97,12 @@ body {
 .row {
 	width: 100%;
 }
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 /* ---- eigen font ---- */ /*
 @font-face {
 	font-family: "Flaticon";
